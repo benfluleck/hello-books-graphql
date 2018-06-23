@@ -2,7 +2,7 @@
 
 HelloBooks Graphql is an application that helps displays the list of books and authors in the library.
 
-# Table of Contents
+## Table of Contents
 - [Getting Started](#getting-started)
 - [Technology Stack](#technology-stack)
   * [Dependencies](#dependencies)
