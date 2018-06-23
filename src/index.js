@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-import schema from './books/schema'
+import schema from './graphql/schema'
 
 const app = express();
 
