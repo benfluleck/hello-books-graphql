@@ -3,12 +3,15 @@ import bodyParser from 'body-parser';
 import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import cors from 'cors';
 
 dotenv.config();
 
 import schema from './graphql/schema'
 
 const app = express();
+
+app.use(cors());
 
 mongoose.connect(process.env.DB_CONFIG_URL);
 

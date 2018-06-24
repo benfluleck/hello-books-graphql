@@ -12,6 +12,7 @@
   "author": "Benny Ogidan",
   "license": "MIT",
   "dependencies": {
+    "apollo-boost": "^0.1.10",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
@@ -19,6 +20,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "css-loader": "^0.28.11",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.0",
     "optimize-css-assets-webpack-plugin": "^4.0.2",
@@ -30,6 +33,7 @@
     "postcss-nested": "^3.0.0",
     "postcss-simple-vars": "^4.1.0",
     "react": "^16.4.0",
+    "react-apollo": "^2.1.6",
     "react-dom": "^16.4.0",
     "react-prop-types": "^0.4.0",
     "react-router": "^4.2.0",
@@ -41,5 +45,8 @@
     "webpack-cli": "^3.0.2",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2"
+  },
+  "devDependencies": {
+    "shortid": "^2.2.8"
   }
 }
