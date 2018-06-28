@@ -32,6 +32,7 @@
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^3.0.0",
     "postcss-simple-vars": "^4.1.0",
+    "prop-types": "^15.6.2",
     "react": "^16.4.0",
     "react-apollo": "^2.1.6",
     "react-dom": "^16.4.0",
@@ -45,8 +46,5 @@
     "webpack-cli": "^3.0.2",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2"
-  },
-  "devDependencies": {
-    "shortid": "^2.2.8"
   }
 }

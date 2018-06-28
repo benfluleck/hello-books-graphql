@@ -19,15 +19,15 @@ const typeDefs = [`
   }
 
   type Query {
-    getBook(id: ID!): Book
+    getBook(id: ID): Book
     allBooks: [Book!]!
-    getAuthor(id: ID!): Author
+    getAuthor(id: ID): Author
     allAuthors: [Author!]!
   }
 
   type Mutation {
     addAuthor(name: String!, age: Int!): Author
-    addBook(name: String!, genre: String!,description : String!, bookImage : String, authorId:ID!): Book
+    addBook(name: String!, genre: String!,description : String, bookImage : String, authorId:ID!): Book
   }
  `]
 

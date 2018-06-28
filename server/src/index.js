@@ -17,13 +17,13 @@ mongoose.connect(process.env.DB_CONFIG_URL);
 
 mongoose.connection.once('open', () =>{
   console.log('Connection to db Initiated')
-})
+});
 
 app.use('/graphiql', graphiqlExpress({
   endpointURL: '/graphql'
 }));
 
-app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }))
+app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
 
 app.listen(4000, () => {
   console.log("Server is listening on port 4000");
