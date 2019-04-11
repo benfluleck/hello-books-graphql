@@ -1,5 +1,7 @@
 # HelloBooks Graphql
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/benfluleck/hello-books-graphql.svg)](https://greenkeeper.io/)
+
 HelloBooks Graphql is an application that helps displays the list of books and authors in the library.
 
 ## Table of Contents
